@@ -1,0 +1,81 @@
+#root {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.appWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.asideWrapper {
+  h2 {
+    white-space: nowrap;
+  }
+}
+
+.playersListStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #555;
+  border-radius: 10px;
+  padding: 5px 10px;
+  list-style: decimal;
+}
+
+.playerStyle {
+  margin-left: 25px;
+  text-align: left;
+}
+
+.messagesWrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.messageStyle {
+  background-color: #555;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameStyle {
+  font-size: 16px;
+  font-weight: 600;
+  color: bisque;
+}
+
+.timeStyle {
+  color: #bbb;
+  font-size: 14px;
+  text-align: end;
+}
+
+.upButtonStyle {
+  position: fixed;
+  left: 90px;
+  bottom: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.arrowUpStyle {
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
